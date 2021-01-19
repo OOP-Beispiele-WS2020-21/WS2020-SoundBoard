@@ -103,7 +103,7 @@ public class SoundBoardApp extends GraphicsApp implements ButtonClickListener {
     public void onButtonClicked(Button button) {
         /*
          Nach dem Klick wird der Button in den Highlight-Zustand versetzt, der nach einer bestimmten Anzahl
-         an Frames automatisch deaktivert wird (siehe Button-Klasse).
+         an Frames automatisch deaktiviert wird (siehe Button-Klasse).
          */
         button.highlight();
         // Anhand der Button-Beschriftung wird versucht, den zugehörigen Sound abzuspielen
